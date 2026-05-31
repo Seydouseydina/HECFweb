@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Galerie HECF — découvrez la vie étudiante, le campus et nos événements académiques en images.">
+  <meta name="keywords" content="HECF galerie, campus, vie étudiante, photos, Niger, université privée">
+  <meta property="og:title" content="Galerie HECF — Campus & vie étudiante">
+  <meta property="og:description" content="Découvrez en images l'énergie, les infrastructures et les moments forts de l'HECF au Niger.">
+  <meta property="og:type" content="website">
+  <title>Galerie HECF — Campus & vie étudiante</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@3.4.0/dist/tabler-icons.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#gallery" class="sr-only">Aller à la galerie</a>
+
+  <nav id="mainNav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="hecf-website.html#hero">
+        <div class="nav-logo-img">
+          <img src="https://hecf.campusniger.com/assets/hecf-5aa26281816fb3de6c744d3ae592cd50c0b883b78fc83ba16330c5e8c150c22f.webp" alt="Logo HECF" loading="eager">
+        </div>
+        <div class="nav-logo-text">
+          <div class="name">HECF</div>
+          <div class="sub">Hautes Études Financières & Comptables</div>
+        </div>
+      </a>
+      <div class="nav-links">
+        <a class="nav-link" href="hecf-website.html#about">Accueil</a>
+        <a class="nav-link" href="inscription.html">Inscription</a>
+        <a class="nav-link" href="gallery.html">Galerie</a>
+        <a class="nav-link" href="hecf-website.html#contact">Contact</a>
+        <a class="nav-cta" href="inscription.html"><i class="ti ti-pencil"></i>S'inscrire</a>
+      </div>
+      <div class="nav-hamburger" onclick="toggleMobileMenu()" id="hamburger" role="button" aria-expanded="false" aria-controls="mobileMenu" tabindex="0" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <div class="mobile-menu" id="mobileMenu" role="navigation" aria-label="Menu mobile">
+    <a class="mobile-link" href="hecf-website.html#about">Accueil</a>
+    <a class="mobile-link" href="inscription.html">Inscription</a>
+    <a class="mobile-link" href="gallery.html">Galerie</a>
+    <a class="mobile-link" href="hecf-website.html#contact">Contact</a>
+    <a class="mobile-link mobile-cta" href="inscription.html">S'inscrire maintenant →</a>
+  </div>
+
+  <section id="hero">
+    <div class="hero-bg-image" aria-hidden="true">
+      <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=1600&q=80&auto=format&fit=crop" alt="Vue du campus HECF" loading="eager">
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-pattern" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge"><i class="ti ti-photo"></i> Galerie officielle HECF</div>
+        <h1>Explorez la <em>vie campus</em><br>et nos moments forts</h1>
+        <p class="hero-desc">Parcourez nos images d'événements, de salles de cours, de projets étudiants et d'infrastructures pour mieux découvrir l'esprit de l'HECF.</p>
+        <div class="hero-btns">
+          <a class="btn-gold" href="#gallery"><i class="ti ti-camera"></i>Voir la galerie</a>
+          <a class="btn-outline-d" href="inscription.html"><i class="ti ti-pencil"></i>S'inscrire</a>
+        </div>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="hero-card">
+          <div class="hero-card-title"><i class="ti ti-building-community"></i> Instantanés du campus</div>
+          <div class="prog-item">
+            <div class="prog-name">Infrastructures modernes <span>6+</span></div>
+            <div class="prog-bar"><div class="prog-fill" style="width:85%"></div></div>
+          </div>
+          <div class="prog-item">
+            <div class="prog-name">Événements étudiants <span>15+</span></div>
+            <div class="prog-bar"><div class="prog-fill" style="width:72%"></div></div>
+          </div>
+          <div class="prog-item">
+            <div class="prog-name">Ambiance collaborative <span>100%</span></div>
+            <div class="prog-bar"><div class="prog-fill" style="width:90%"></div></div>
+          </div>
+          <div class="hero-card-cta">
+            <a href="inscription.html" class="btn-gold" style="width:100%;justify-content:center;margin-top:4px"><i class="ti ti-pencil"></i>Rejoindre l'HECF</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="gallery">
+    <div class="section">
+      <div class="gallery-header fade-in" style="text-align:center;margin-bottom:48px">
+        <div class="section-eyebrow" style="justify-content:center">Galerie</div>
+        <h2 class="section-title">Voyage au cœur de l'<em>HECF</em></h2>
+        <p class="section-body" style="max-width:620px;margin:0 auto">Découvrez quelques moments forts de la vie étudiante, de nos infrastructures modernes et de nos événements académiques.</p>
+      </div>
+      <div class="gallery-grid fade-in">
+        <div class="gallery-item"><img src="Immeuble de l'etablissement.jpg" alt="Façade de l'établissement HECF" loading="lazy"></div>
+        <div class="gallery-item"><img src="Directeur Général de l'etablissement.jpg" alt="Directeur général de l'établissement HECF" loading="lazy"></div>
+        <div class="gallery-item"><img src="Cérémonie de diplome.jpg" alt="Cérémonie de remise de diplômes HECF" loading="lazy"></div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="footer-logo-img">
+              <img src="https://hecf.campusniger.com/assets/hecf-5aa26281816fb3de6c744d3ae592cd50c0b883b78fc83ba16330c5e8c150c22f.webp" alt="Logo HECF" loading="lazy">
+            </div>
+            <div>
+              <div class="footer-name">HECF</div>
+              <div class="footer-sub">Hautes Études Financières & Comptables</div>
+            </div>
+          </div>
+          <p>Une institution tournée vers l'avenir, qui place l'excellence académique et l'expérience étudiante au centre de son action.</p>
+          <div class="footer-socials">
+            <a href="#" aria-label="Facebook"><i class="ti ti-brand-facebook"></i></a>
+            <a href="#" aria-label="LinkedIn"><i class="ti ti-brand-linkedin"></i></a>
+            <a href="#" aria-label="WhatsApp"><i class="ti ti-brand-whatsapp"></i></a>
+            <a href="#" aria-label="Instagram"><i class="ti ti-brand-instagram"></i></a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="hecf-website.html#about">Accueil</a></li>
+            <li><a href="inscription.html">Inscription</a></li>
+            <li><a href="gallery.html">Galerie</a></li>
+            <li><a href="hecf-website.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contact</h4>
+          <ul class="footer-links">
+            <li><a href="tel:+22720000000">+227 20 XX XX XX</a></li>
+            <li><a href="mailto:contact@hecf.edu">contact@hecf.edu</a></li>
+            <li><a href="https://maps.google.com/?q=Niamey,Niger" target="_blank" rel="noopener noreferrer">Niamey, Niger</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Admission</h4>
+          <ul class="footer-links">
+            <li><a href="inscription.html">Déposer ma candidature</a></li>
+            <li><a href="hecf-website.html#faq">FAQ</a></li>
+          </ul>
+          <div class="footer-cta-box">
+            <p>Rentrée octobre 2025</p>
+            <a href="inscription.html" class="btn-gold" style="width:100%;justify-content:center;font-size:13px;padding:10px 16px">Candidater →</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© 2026 HECF — Ecole des Hautes Études Financières & Comptables. Tous droits réservés.</p>
+        <div class="footer-bottom-links">
+          <a href="#">Politique de confidentialité</a>
+          <a href="#">Mentions légales</a>
+          <span>Niamey, Niger · contact@hecf.edu</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" onclick="scrollToTop()" aria-label="Retour en haut"><i class="ti ti-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
